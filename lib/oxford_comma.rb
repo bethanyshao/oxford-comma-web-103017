@@ -6,7 +6,7 @@ def oxford_comma(array)
     output = "#{array[0]} and #{array[1]}"
   else
     for index in 0..array.size - 2 do
-      output += "#{array[index], }"
+      output += "#{array[index]}, "
     end
     output += "and #{array.last}"
   end
